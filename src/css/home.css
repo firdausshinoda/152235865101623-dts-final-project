@@ -1,0 +1,59 @@
+.search-page {
+    width: 100vw;
+    height: 100vh;
+    background: url('./../img/bg_1.png') no-repeat center 35%;
+    background-size: cover;
+}
+.search-text {
+  font-weight: 10;
+}
+.search-text > b {
+  font-weight: 900;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.search-form {
+  border-radius: 1rem;
+    -webkit-transition: -webkit-box-shadow .15s;
+    transition: -webkit-box-shadow .15s;
+    transition: box-shadow .15s;
+    transition: box-shadow .15s, -webkit-box-shadow .15s;
+    -webkit-box-shadow: 4px 5px 5px rgba(0,0,0,.1);
+    box-shadow: 4px 5px 5px rgba(0,0,0,.1);
+}
+.search-form .input-group {
+  border-radius: 1rem;
+}
+.search-form input {
+  font-size: 1.2rem;
+  height: 60px;
+}
+.search-form .input-group-append {
+  width: 10%;
+}
+.search-form input, 
+.search-form .input-group,
+.search-form .input-group-append .btn-submit {
+  background: #fff;
+}
+.search-form .input-group .input-group-append .btn-submit {
+  border-radius: 0 1rem 1rem 0;
+}
+input {
+  letter-spacing: .0225em;
+}
+.search-form .input-group-append .btn-submit {
+  border-top-right-radius: .4rem;
+  border-bottom-right-radius: .4rem;
+}
+.search-form .input-group-append .btn-submit {
+  -webkit-transition: none;
+  transition: none;
+  border: 0;
+}
+input:hover, input:focus {
+  outline:0px !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
